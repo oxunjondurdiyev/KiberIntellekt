@@ -1,5 +1,5 @@
 import { getTranslations } from "next-intl/server";
-import { Reveal } from "@/components/motion/reveal";
+import { PageHero } from "@/components/shared/page-hero";
 import { CertificateGallery } from "@/components/certificates/certificate-gallery";
 import {
   getAllCertificates,
@@ -45,15 +45,10 @@ export default async function CertificatesPage({
   );
 
   return (
-    <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8">
-      <Reveal className="mx-auto max-w-2xl text-center">
-        <h1 className="font-display text-4xl font-bold tracking-tight sm:text-5xl">
-          {t("title")}
-        </h1>
-        <p className="mt-4 text-lg text-muted-foreground">{t("subtitle")}</p>
-      </Reveal>
+    <div>
+      <PageHero title={t("title")} subtitle={t("subtitle")} />
 
-      <div className="mt-12">
+      <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8">
         <CertificateGallery
           certificates={certificates}
           categories={categories}

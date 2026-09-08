@@ -5,6 +5,8 @@ import { Button } from "@/components/ui/button";
 import { Reveal } from "@/components/motion/reveal";
 import { StaggerGroup, StaggerItem } from "@/components/motion/stagger-group";
 import { SocialLinks } from "@/components/shared/social-links";
+import { Kicker } from "@/components/shared/kicker";
+import { DecorativeOrbs } from "@/components/shared/decorative-orbs";
 import { ProjectCard } from "@/components/projects/project-card";
 import { CourseCard } from "@/components/courses/course-card";
 import { getFeaturedProjects } from "@/lib/content/projects";
@@ -33,26 +35,22 @@ export default async function HomePage({
     <>
       <section className="relative overflow-hidden">
         <div
-          className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[36rem] opacity-30"
-          style={{
-            background:
-              "radial-gradient(55% 45% at 50% 0%, var(--color-primary), transparent 70%)",
-          }}
+          className="bg-dot-grid pointer-events-none absolute inset-0 -z-20 opacity-70 [mask-image:radial-gradient(ellipse_65%_55%_at_50%_10%,black,transparent)]"
           aria-hidden="true"
         />
-        <div className="mx-auto max-w-4xl px-4 py-24 text-center sm:px-6 sm:py-32 lg:px-8">
+        <DecorativeOrbs />
+
+        <div className="mx-auto max-w-4xl px-4 py-28 text-center sm:px-6 sm:py-36 lg:px-8">
           <Reveal>
-            <p className="text-sm font-medium uppercase tracking-wide text-primary">
-              {t("hero.eyebrow")}
-            </p>
+            <Kicker>{t("hero.eyebrow")}</Kicker>
           </Reveal>
           <Reveal delay={0.1}>
-            <h1 className="text-balance mt-6 font-display text-4xl font-bold leading-tight tracking-tight text-foreground sm:text-5xl lg:text-6xl">
+            <h1 className="text-balance mt-8 font-display text-5xl font-bold leading-[1.05] tracking-tight text-foreground sm:text-6xl lg:text-[4.5rem]">
               {t("hero.title")}
             </h1>
           </Reveal>
           <Reveal delay={0.2}>
-            <p className="text-balance mx-auto mt-6 max-w-2xl text-lg text-muted-foreground">
+            <p className="text-balance mx-auto mt-7 max-w-2xl text-lg leading-relaxed text-muted-foreground">
               {t("hero.subtitle")}
             </p>
           </Reveal>
@@ -72,29 +70,27 @@ export default async function HomePage({
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8">
+      <section className="relative mx-auto max-w-6xl px-4 py-20 sm:px-6 lg:px-8">
         <Reveal className="mx-auto max-w-2xl text-center">
-          <h2 className="font-display text-3xl font-bold tracking-tight">
-            {t("focusAreas.title")}
-          </h2>
-          <p className="mt-3 text-muted-foreground">
+          <Kicker className="mx-auto">{t("focusAreas.title")}</Kicker>
+          <h2 className="mt-5 font-display text-3xl font-bold tracking-tight sm:text-4xl">
             {t("focusAreas.subtitle")}
-          </p>
+          </h2>
         </Reveal>
 
-        <StaggerGroup className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <StaggerGroup className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {focusItems.map((item, index) => {
             const Icon = focusIcons[index % focusIcons.length];
             return (
               <StaggerItem key={item.title}>
                 <div className="card-hover h-full rounded-2xl border border-border bg-card p-6">
-                  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10 text-primary">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-primary/20 to-accent/15 text-primary">
                     <Icon size={22} />
                   </div>
-                  <h3 className="mt-4 font-semibold text-foreground">
+                  <h3 className="mt-5 font-display font-semibold text-foreground">
                     {item.title}
                   </h3>
-                  <p className="mt-2 text-sm text-muted-foreground">
+                  <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
                     {item.description}
                   </p>
                 </div>
@@ -105,16 +101,15 @@ export default async function HomePage({
       </section>
 
       {featuredProjects.length > 0 && (
-        <section className="bg-secondary/40 py-16">
+        <section className="relative overflow-hidden border-y border-border/60 bg-secondary/30 py-20">
+          <div className="bg-grid pointer-events-none absolute inset-0 -z-10 opacity-40 [mask-image:radial-gradient(ellipse_70%_60%_at_50%_40%,black,transparent)]" />
           <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
             <Reveal className="flex flex-wrap items-end justify-between gap-4">
               <div>
-                <h2 className="font-display text-3xl font-bold tracking-tight">
-                  {t("projectsTeaser.title")}
-                </h2>
-                <p className="mt-2 text-muted-foreground">
+                <Kicker>{t("projectsTeaser.title")}</Kicker>
+                <h2 className="mt-5 font-display text-3xl font-bold tracking-tight sm:text-4xl">
                   {t("projectsTeaser.subtitle")}
-                </p>
+                </h2>
               </div>
               <Link
                 href="/projects"
@@ -125,7 +120,7 @@ export default async function HomePage({
               </Link>
             </Reveal>
 
-            <StaggerGroup className="mt-10 grid gap-6 md:grid-cols-3">
+            <StaggerGroup className="mt-12 grid gap-6 md:grid-cols-3">
               {featuredProjects.map((project) => (
                 <StaggerItem key={project.slug}>
                   <ProjectCard
@@ -141,15 +136,13 @@ export default async function HomePage({
         </section>
       )}
 
-      <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8">
+      <section className="mx-auto max-w-6xl px-4 py-20 sm:px-6 lg:px-8">
         <Reveal className="flex flex-wrap items-end justify-between gap-4">
           <div>
-            <h2 className="font-display text-3xl font-bold tracking-tight">
-              {t("coursesTeaser.title")}
-            </h2>
-            <p className="mt-2 text-muted-foreground">
+            <Kicker>{t("coursesTeaser.title")}</Kicker>
+            <h2 className="mt-5 font-display text-3xl font-bold tracking-tight sm:text-4xl">
               {t("coursesTeaser.subtitle")}
-            </p>
+            </h2>
           </div>
           <Link
             href="/courses"
@@ -160,7 +153,7 @@ export default async function HomePage({
           </Link>
         </Reveal>
 
-        <StaggerGroup className="mt-10 grid gap-6 md:grid-cols-3">
+        <StaggerGroup className="mt-12 grid gap-6 md:grid-cols-3">
           {courses.map((course) => (
             <StaggerItem key={course.slug}>
               <CourseCard
@@ -176,9 +169,10 @@ export default async function HomePage({
         </StaggerGroup>
       </section>
 
-      <section className="border-t border-border/60 bg-secondary/40 py-16">
-        <Reveal className="mx-auto max-w-2xl px-4 text-center sm:px-6 lg:px-8">
-          <h2 className="font-display text-3xl font-bold tracking-tight">
+      <section className="relative overflow-hidden border-t border-border/60 bg-secondary/30 py-20">
+        <DecorativeOrbs className="opacity-70" />
+        <Reveal className="relative mx-auto max-w-2xl px-4 text-center sm:px-6 lg:px-8">
+          <h2 className="font-display text-3xl font-bold tracking-tight sm:text-4xl">
             {t("social.title")}
           </h2>
           <p className="mt-3 text-muted-foreground">{t("social.subtitle")}</p>

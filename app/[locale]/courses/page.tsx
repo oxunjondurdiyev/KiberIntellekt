@@ -1,6 +1,6 @@
 import { getTranslations } from "next-intl/server";
-import { Reveal } from "@/components/motion/reveal";
 import { StaggerGroup, StaggerItem } from "@/components/motion/stagger-group";
+import { PageHero } from "@/components/shared/page-hero";
 import { CourseCard } from "@/components/courses/course-card";
 import { getAllCourses } from "@/lib/content/courses";
 import type { AppLocale } from "@/i18n/routing";
@@ -33,28 +33,25 @@ export default async function CoursesPage({
   const courses = getAllCourses();
 
   return (
-    <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8">
-      <Reveal className="mx-auto max-w-2xl text-center">
-        <h1 className="font-display text-4xl font-bold tracking-tight sm:text-5xl">
-          {t("title")}
-        </h1>
-        <p className="mt-4 text-lg text-muted-foreground">{t("subtitle")}</p>
-      </Reveal>
+    <div>
+      <PageHero title={t("title")} subtitle={t("subtitle")} />
 
-      <StaggerGroup className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-        {courses.map((course) => (
-          <StaggerItem key={course.slug}>
-            <CourseCard
-              course={course}
-              locale={locale}
-              levelLabel={t(`levels.${course.level}`)}
-              statusLabel={t(`statuses.${course.status}`)}
-              durationLabel={t("durationLabel")}
-              hoursSuffix={t("hoursSuffix")}
-            />
-          </StaggerItem>
-        ))}
-      </StaggerGroup>
+      <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8">
+        <StaggerGroup className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          {courses.map((course) => (
+            <StaggerItem key={course.slug}>
+              <CourseCard
+                course={course}
+                locale={locale}
+                levelLabel={t(`levels.${course.level}`)}
+                statusLabel={t(`statuses.${course.status}`)}
+                durationLabel={t("durationLabel")}
+                hoursSuffix={t("hoursSuffix")}
+              />
+            </StaggerItem>
+          ))}
+        </StaggerGroup>
+      </div>
     </div>
   );
 }
