@@ -1,0 +1,76 @@
+{
+  "slug": "iso-9001-fundamentals",
+  "name": {
+    "uz": "ISO 9001:2015 sifat menejmenti tizimi asoslari",
+    "ru": "Основы системы менеджмента качества ISO 9001:2015",
+    "en": "ISO 9001:2015 Quality Management System Fundamentals"
+  },
+  "description": {
+    "uz": "Sifat menejmenti tizimini joriy etish va yuritishning asosiy tamoyillari bilan tanishtiruvchi kurs.",
+    "ru": "Курс, знакомящий с основными принципами внедрения и функционирования системы менеджмента качества.",
+    "en": "A course introducing the core principles of implementing and operating a quality management system."
+  },
+  "level": "beginner",
+  "durationHours": 8,
+  "category": "iso-standards",
+  "status": "coming-soon",
+  "order": 1,
+  "syllabus": [
+    {
+      "slug": "module-1",
+      "title": {
+        "uz": "Sifat menejmenti tizimiga kirish",
+        "ru": "Введение в систему менеджмента качества",
+        "en": "Introduction to Quality Management Systems"
+      },
+      "lessons": [
+        {
+          "slug": "lesson-1-1",
+          "title": {
+            "uz": "ISO 9001:2015 nima va nima uchun kerak",
+            "ru": "Что такое ISO 9001:2015 и зачем он нужен",
+            "en": "What is ISO 9001:2015 and why it matters"
+          },
+          "type": "video"
+        },
+        {
+          "slug": "lesson-1-2",
+          "title": {
+            "uz": "Asosiy tamoyillar va terminologiya",
+            "ru": "Основные принципы и терминология",
+            "en": "Core principles and terminology"
+          },
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "slug": "module-2",
+      "title": {
+        "uz": "Joriy etish bosqichlari",
+        "ru": "Этапы внедрения",
+        "en": "Implementation Stages"
+      },
+      "lessons": [
+        {
+          "slug": "lesson-2-1",
+          "title": {
+            "uz": "Jarayonlarni xaritalash",
+            "ru": "Картирование процессов",
+            "en": "Process mapping"
+          },
+          "type": "video"
+        },
+        {
+          "slug": "lesson-2-2",
+          "title": {
+            "uz": "Ichki audit tayyorgarligi",
+            "ru": "Подготовка к внутреннему аудиту",
+            "en": "Internal audit preparation"
+          },
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}

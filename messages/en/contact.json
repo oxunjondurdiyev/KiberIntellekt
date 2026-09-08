@@ -1,0 +1,22 @@
+{
+  "title": "Contact",
+  "subtitle": "Have a question or a proposal? Reach out.",
+  "formTitle": "Send a message",
+  "nameLabel": "Your name",
+  "emailLabel": "Email",
+  "subjectLabel": "Subject",
+  "messageLabel": "Message",
+  "sendButton": "Send",
+  "sending": "Sending...",
+  "successMessage": "Your message was sent successfully. I'll get back to you soon!",
+  "errorMessage": "Something went wrong while sending your message. Please try again shortly.",
+  "notConfiguredMessage": "The contact form is still being set up. Please reach out via social media instead.",
+  "validation": {
+    "nameRequired": "Please enter your name",
+    "emailInvalid": "Please enter a valid email address",
+    "messageRequired": "Please enter a message",
+    "messageMin": "Message must be at least 10 characters"
+  },
+  "socialTitle": "Social media",
+  "directEmailLabel": "Or email directly"
+}

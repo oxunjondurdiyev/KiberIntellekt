@@ -1,0 +1,45 @@
+{
+  "hero": {
+    "eyebrow": "PhD Researcher · Institute of Standardization Lecturer · Cybersecurity Specialist",
+    "title": "Managing quality through artificial intelligence and international standards",
+    "subtitle": "I research product and service quality management based on artificial intelligence and the ISO 9001:2015, ISO/IEC 27001, and ISO/IEC 42001:2023 international standards. I teach at the Uzbekistan Institute of Standardization and work as a cybersecurity practitioner.",
+    "ctaPrimary": "View my projects",
+    "ctaSecondary": "Get in touch"
+  },
+  "focusAreas": {
+    "title": "Main focus areas",
+    "subtitle": "My research and practical work spans the following areas",
+    "items": [
+      {
+        "title": "Artificial Intelligence",
+        "description": "AI-driven decision-support and process automation systems"
+      },
+      {
+        "title": "Cybersecurity",
+        "description": "Information security assurance and risk management under ISO/IEC 27001"
+      },
+      {
+        "title": "Quality Management (ISO)",
+        "description": "Quality management systems built on ISO 9001:2015 and ISO/IEC 42001:2023"
+      },
+      {
+        "title": "Education & Training",
+        "description": "Training programs in standardization and cybersecurity"
+      }
+    ]
+  },
+  "projectsTeaser": {
+    "title": "Featured projects",
+    "subtitle": "A sample of completed work",
+    "cta": "View all projects"
+  },
+  "coursesTeaser": {
+    "title": "Online courses",
+    "subtitle": "Grow your knowledge and skills",
+    "cta": "View all courses"
+  },
+  "social": {
+    "title": "Follow along on social media",
+    "subtitle": "Fresh AI and cybersecurity content on the KiberIntellekt channels"
+  }
+}

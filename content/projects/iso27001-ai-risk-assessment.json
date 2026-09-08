@@ -1,0 +1,28 @@
+{
+  "slug": "iso27001-ai-risk-assessment",
+  "title": {
+    "uz": "ISO/IEC 27001 axborot xavfsizligi risklarini AI yordamida baholash",
+    "ru": "Оценка рисков информационной безопасности по ISO/IEC 27001 с помощью ИИ",
+    "en": "AI-Assisted ISO/IEC 27001 Information Security Risk Assessment"
+  },
+  "shortDescription": {
+    "uz": "Tashkilotlar uchun axborot xavfsizligi risklarini aniqlash va ustuvorlashtirishni tezlashtiruvchi AI asosidagi baholash vositasi.",
+    "ru": "Инструмент оценки на базе ИИ, ускоряющий выявление и приоритизацию рисков информационной безопасности для организаций.",
+    "en": "An AI-based assessment tool that speeds up identifying and prioritizing information security risks for organizations."
+  },
+  "detailedDescription": {
+    "uz": "ISO/IEC 27001 talablariga muvofiq risklarni baholash jarayoni ko'p vaqt talab qiladigan qo'lda bajariladigan ish hisoblanadi. Ushbu loyihada tarixiy hodisalar va tizim jurnallari asosida risklarni avtomatik ustuvorlashtiruvchi model yaratildi, bu esa audit jamoasiga eng muhim tahdidlarga birinchi navbatda e'tibor qaratish imkonini beradi.",
+    "ru": "Процесс оценки рисков в соответствии с требованиями ISO/IEC 27001 традиционно является трудоёмкой ручной работой. В рамках проекта была создана модель, автоматически приоритизирующая риски на основе исторических инцидентов и системных журналов, что позволяет аудиторской команде в первую очередь фокусироваться на наиболее значимых угрозах.",
+    "en": "Risk assessment under ISO/IEC 27001 requirements is traditionally a time-consuming manual process. This project built a model that automatically prioritizes risks based on historical incidents and system logs, allowing the audit team to focus first on the most significant threats."
+  },
+  "technologies": ["Python", "ISO/IEC 27001", "NLP", "Risk Scoring"],
+  "category": "cybersecurity",
+  "result": {
+    "uz": "Risklarni ustuvorlashtirish jarayoni tezlashdi va audit jamoasining samaradorligi oshdi.",
+    "ru": "Процесс приоритизации рисков ускорился, повысилась эффективность работы аудиторской команды.",
+    "en": "The risk-prioritization process became faster, improving the audit team's efficiency."
+  },
+  "featured": true,
+  "order": 2,
+  "publishedAt": "2024-07-15"
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Online Courses",
+  "subtitle": "Courses on artificial intelligence, cybersecurity, and quality standards",
+  "levels": {
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "advanced": "Advanced"
+  },
+  "statuses": {
+    "available": "Available",
+    "coming-soon": "Coming soon"
+  },
+  "durationLabel": "Duration",
+  "hoursSuffix": "hrs",
+  "syllabusTitle": "Course syllabus",
+  "lessonsCount": "lessons",
+  "backToCourses": "Back to courses",
+  "lessonComingSoon": "This lesson's content will be added soon",
+  "videoLesson": "Video lesson",
+  "textLesson": "Text lesson"
+}

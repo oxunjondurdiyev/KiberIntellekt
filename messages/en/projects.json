@@ -1,0 +1,20 @@
+{
+  "title": "My Projects",
+  "subtitle": "A gallery of completed research and applied projects",
+  "filterLabel": "Filter by category",
+  "categories": {
+    "ai-ml": "Artificial Intelligence",
+    "cybersecurity": "Cybersecurity",
+    "iso-quality-management": "ISO Quality Management",
+    "research": "Research",
+    "training": "Training",
+    "other": "Other"
+  },
+  "technologiesLabel": "Technology / Topic",
+  "resultLabel": "Result",
+  "viewDetails": "View details",
+  "visitProject": "Visit project",
+  "backToProjects": "Back to projects",
+  "emptyState": "No projects in this category yet",
+  "galleryLabel": "Image gallery"
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Loyihalarim",
+  "subtitle": "Amalga oshirilgan tadqiqot va amaliy loyihalar galereyasi",
+  "filterLabel": "Kategoriya bo'yicha filtrlash",
+  "categories": {
+    "ai-ml": "Sun'iy intellekt",
+    "cybersecurity": "Kiberxavfsizlik",
+    "iso-quality-management": "ISO sifat boshqaruvi",
+    "research": "Tadqiqot",
+    "training": "Trening",
+    "other": "Boshqa"
+  },
+  "technologiesLabel": "Texnologiya / mavzu",
+  "resultLabel": "Natija",
+  "viewDetails": "Batafsil ko'rish",
+  "visitProject": "Loyihaga o'tish",
+  "backToProjects": "Loyihalarga qaytish",
+  "emptyState": "Ushbu kategoriyada hozircha loyiha yo'q",
+  "galleryLabel": "Rasm galereyasi"
+}

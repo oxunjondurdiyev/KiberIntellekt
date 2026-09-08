@@ -1,0 +1,21 @@
+{
+  "title": "Onlayn kurslar",
+  "subtitle": "Sun'iy intellekt, kiberxavfsizlik va sifat standartlari bo'yicha kurslar",
+  "levels": {
+    "beginner": "Boshlang'ich",
+    "intermediate": "O'rta",
+    "advanced": "Yuqori"
+  },
+  "statuses": {
+    "available": "Mavjud",
+    "coming-soon": "Tez orada"
+  },
+  "durationLabel": "Davomiyligi",
+  "hoursSuffix": "soat",
+  "syllabusTitle": "Kurs dasturi",
+  "lessonsCount": "dars",
+  "backToCourses": "Kurslarga qaytish",
+  "lessonComingSoon": "Bu dars kontenti tez orada qo'shiladi",
+  "videoLesson": "Video dars",
+  "textLesson": "Matnli dars"
+}

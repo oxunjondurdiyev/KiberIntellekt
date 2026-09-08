@@ -1,0 +1,110 @@
+[
+  {
+    "slug": "training",
+    "icon": "GraduationCap",
+    "title": {
+      "uz": "Trening va seminarlar",
+      "ru": "Тренинги и семинары",
+      "en": "Training & Workshops"
+    },
+    "description": {
+      "uz": "ISO 9001:2015, ISO/IEC 27001 va ISO/IEC 42001:2023 standartlari, shuningdek sun'iy intellekt va kiberxavfsizlik asoslari bo'yicha tashkilot xodimlari uchun amaliy treninglar.",
+      "ru": "Практические тренинги для сотрудников организаций по стандартам ISO 9001:2015, ISO/IEC 27001 и ISO/IEC 42001:2023, а также по основам искусственного интеллекта и кибербезопасности.",
+      "en": "Hands-on training for organizational staff on ISO 9001:2015, ISO/IEC 27001, and ISO/IEC 42001:2023 standards, as well as AI and cybersecurity fundamentals."
+    },
+    "highlights": [
+      {
+        "uz": "Amaliy mashg'ulotlar va case-study'lar",
+        "ru": "Практические занятия и кейсы",
+        "en": "Hands-on sessions and case studies"
+      },
+      {
+        "uz": "Tashkilot ehtiyojiga moslashtirilgan dastur",
+        "ru": "Программа, адаптированная под организацию",
+        "en": "Program tailored to the organization's needs"
+      }
+    ],
+    "order": 1
+  },
+  {
+    "slug": "consulting",
+    "icon": "Lightbulb",
+    "title": {
+      "uz": "Konsalting",
+      "ru": "Консалтинг",
+      "en": "Consulting"
+    },
+    "description": {
+      "uz": "Sifat menejmenti tizimlarini joriy etish va sun'iy intellektni jarayonlarga integratsiya qilish bo'yicha maslahat xizmatlari.",
+      "ru": "Консультационные услуги по внедрению систем менеджмента качества и интеграции искусственного интеллекта в бизнес-процессы.",
+      "en": "Advisory services for implementing quality management systems and integrating artificial intelligence into organizational processes."
+    },
+    "highlights": [
+      {
+        "uz": "Joriy holatni tahlil qilish",
+        "ru": "Анализ текущего состояния",
+        "en": "Current-state assessment"
+      },
+      {
+        "uz": "Bosqichma-bosqich joriy etish rejasi",
+        "ru": "Поэтапный план внедрения",
+        "en": "Step-by-step implementation roadmap"
+      }
+    ],
+    "order": 2
+  },
+  {
+    "slug": "audit",
+    "icon": "ShieldCheck",
+    "title": {
+      "uz": "Audit va baholash",
+      "ru": "Аудит и оценка",
+      "en": "Audit & Assessment"
+    },
+    "description": {
+      "uz": "Sifat menejmenti va axborot xavfsizligi tizimlarining xalqaro standartlarga muvofiqligini ichki audit orqali baholash.",
+      "ru": "Оценка соответствия систем менеджмента качества и информационной безопасности международным стандартам посредством внутреннего аудита.",
+      "en": "Internal-audit assessment of quality management and information security systems against international standards."
+    },
+    "highlights": [
+      {
+        "uz": "Muvofiqlik bo'shliqlarini aniqlash",
+        "ru": "Выявление пробелов в соответствии",
+        "en": "Compliance gap identification"
+      },
+      {
+        "uz": "Batafsil audit hisoboti va tavsiyalar",
+        "ru": "Подробный отчёт с рекомендациями",
+        "en": "Detailed audit report with recommendations"
+      }
+    ],
+    "order": 3
+  },
+  {
+    "slug": "research-collaboration",
+    "icon": "FlaskConical",
+    "title": {
+      "uz": "Tadqiqot hamkorligi",
+      "ru": "Научное сотрудничество",
+      "en": "Research Collaboration"
+    },
+    "description": {
+      "uz": "Sun'iy intellekt asosida sifat boshqaruvi mavzusidagi ilmiy loyihalar, maqolalar va tadqiqotlar bo'yicha hamkorlik.",
+      "ru": "Сотрудничество по научным проектам, статьям и исследованиям в области управления качеством на основе искусственного интеллекта.",
+      "en": "Collaboration on research projects, papers, and studies in AI-based quality management."
+    },
+    "highlights": [
+      {
+        "uz": "Qo'shma ilmiy nashrlar",
+        "ru": "Совместные научные публикации",
+        "en": "Joint academic publications"
+      },
+      {
+        "uz": "Metodologik maslahat",
+        "ru": "Методологическое консультирование",
+        "en": "Methodological guidance"
+      }
+    ],
+    "order": 4
+  }
+]

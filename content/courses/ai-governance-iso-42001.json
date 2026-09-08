@@ -1,0 +1,39 @@
+{
+  "slug": "ai-governance-iso-42001",
+  "name": {
+    "uz": "Sun'iy intellektni boshqarish: ISO/IEC 42001:2023",
+    "ru": "Управление искусственным интеллектом: ISO/IEC 42001:2023",
+    "en": "AI Governance: ISO/IEC 42001:2023"
+  },
+  "description": {
+    "uz": "Tashkilotlarda sun'iy intellekt tizimlarini mas'uliyatli boshqarish standartiga bag'ishlangan ilg'or kurs.",
+    "ru": "Продвинутый курс, посвящённый стандарту ответственного управления системами ИИ в организациях.",
+    "en": "An advanced course on the standard for responsibly governing AI systems within organizations."
+  },
+  "level": "advanced",
+  "durationHours": 12,
+  "category": "ai",
+  "status": "coming-soon",
+  "order": 3,
+  "syllabus": [
+    {
+      "slug": "module-1",
+      "title": {
+        "uz": "AI boshqaruv tizimiga kirish",
+        "ru": "Введение в систему менеджмента ИИ",
+        "en": "Introduction to AI Management Systems"
+      },
+      "lessons": [
+        {
+          "slug": "lesson-1-1",
+          "title": {
+            "uz": "ISO/IEC 42001:2023 tuzilishi",
+            "ru": "Структура ISO/IEC 42001:2023",
+            "en": "Structure of ISO/IEC 42001:2023"
+          },
+          "type": "video"
+        }
+      ]
+    }
+  ]
+}

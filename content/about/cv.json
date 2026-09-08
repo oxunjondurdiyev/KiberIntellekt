@@ -1,0 +1,72 @@
+{
+  "bio": {
+    "uz": "Men sun'iy intellekt va xalqaro standartlar asosida mahsulot va xizmat sifatini boshqarish yo'nalishida tadqiqot olib boruvchi PhD tadqiqotchisiman. O'zbekiston Standartlar institutida o'qituvchi sifatida faoliyat yuritaman va kiberxavfsizlik sohasida amaliy tajribaga egaman. Ish faoliyatimda ISO 9001:2015, ISO/IEC 27001 va ISO/IEC 42001:2023 xalqaro standartlarini sun'iy intellekt yechimlari bilan uyg'unlashtirish orqali tashkilotlarga sifat va xavfsizlik darajasini oshirishga yordam beraman. Shuningdek, \"KiberIntellekt\" nomi ostida Telegram, YouTube, Instagram va Facebook'da sun'iy intellekt va kiberxavfsizlik mavzularida bilim tarqataman.",
+    "ru": "Я PhD-исследователь в области управления качеством продукции и услуг на основе искусственного интеллекта и международных стандартов. Преподаю в Институте стандартизации Узбекистана и обладаю практическим опытом в сфере кибербезопасности. В своей работе я помогаю организациям повышать уровень качества и безопасности, интегрируя международные стандарты ISO 9001:2015, ISO/IEC 27001 и ISO/IEC 42001:2023 с решениями на основе искусственного интеллекта. Также веду каналы «KiberIntellekt» в Telegram, YouTube, Instagram и Facebook, посвящённые искусственному интеллекту и кибербезопасности.",
+    "en": "I am a PhD researcher in product and service quality management based on artificial intelligence and international standards. I teach at the Uzbekistan Institute of Standardization and have practical experience in cybersecurity. In my work, I help organizations raise their quality and security levels by integrating the ISO 9001:2015, ISO/IEC 27001, and ISO/IEC 42001:2023 international standards with AI-based solutions. I also run the \"KiberIntellekt\" channels on Telegram, YouTube, Instagram, and Facebook, focused on artificial intelligence and cybersecurity."
+  },
+  "education": [
+    {
+      "period": { "start": "2023", "end": null },
+      "degree": {
+        "uz": "PhD (falsafa doktori) — Sifat menejmenti (sun'iy intellekt asosida)",
+        "ru": "PhD (доктор философии) — Менеджмент качества (на основе ИИ)",
+        "en": "PhD — Quality Management (AI-based)"
+      },
+      "institution": {
+        "uz": "O'zbekiston Standartlar instituti",
+        "ru": "Институт стандартизации Узбекистана",
+        "en": "Uzbekistan Institute of Standardization"
+      }
+    }
+  ],
+  "experience": [
+    {
+      "period": { "start": "2023", "end": null },
+      "role": { "uz": "O'qituvchi", "ru": "Преподаватель", "en": "Lecturer" },
+      "organization": {
+        "uz": "O'zbekiston Standartlar instituti",
+        "ru": "Институт стандартизации Узбекистана",
+        "en": "Uzbekistan Institute of Standardization"
+      },
+      "description": {
+        "uz": "Standartlashtirish, sifat menejmenti va kiberxavfsizlik fanlaridan dars berish",
+        "ru": "Преподавание дисциплин по стандартизации, менеджменту качества и кибербезопасности",
+        "en": "Teaching courses in standardization, quality management, and cybersecurity"
+      }
+    }
+  ],
+  "expertiseAreas": [
+    {
+      "uz": "ISO 9001:2015 sifat menejmenti tizimlari",
+      "ru": "Системы менеджмента качества ISO 9001:2015",
+      "en": "ISO 9001:2015 Quality Management Systems"
+    },
+    {
+      "uz": "ISO/IEC 27001 axborot xavfsizligi",
+      "ru": "Информационная безопасность по ISO/IEC 27001",
+      "en": "ISO/IEC 27001 Information Security"
+    },
+    {
+      "uz": "ISO/IEC 42001:2023 AI boshqaruv tizimlari",
+      "ru": "Системы менеджмента ИИ по ISO/IEC 42001:2023",
+      "en": "ISO/IEC 42001:2023 AI Management Systems"
+    },
+    {
+      "uz": "Kiberxavfsizlik amaliyoti",
+      "ru": "Практика кибербезопасности",
+      "en": "Cybersecurity Practice"
+    }
+  ],
+  "researchDirections": [
+    {
+      "uz": "Sun'iy intellekt asosida mahsulot va xizmat sifatini boshqarish",
+      "ru": "Управление качеством продукции и услуг на основе ИИ",
+      "en": "AI-based product and service quality management"
+    },
+    {
+      "uz": "Xalqaro standartlarni raqamli transformatsiya bilan integratsiyalash",
+      "ru": "Интеграция международных стандартов с цифровой трансформацией",
+      "en": "Integrating international standards with digital transformation"
+    }
+  ]
+}

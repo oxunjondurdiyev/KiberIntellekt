@@ -1,0 +1,67 @@
+{
+  "slug": "cybersecurity-basics",
+  "name": {
+    "uz": "Kiberxavfsizlik asoslari",
+    "ru": "Основы кибербезопасности",
+    "en": "Cybersecurity Fundamentals"
+  },
+  "description": {
+    "uz": "Tashkilot va shaxsiy ma'lumotlarni himoya qilishning amaliy asoslarini o'rgatuvchi kurs.",
+    "ru": "Курс, обучающий практическим основам защиты организационных и личных данных.",
+    "en": "A course teaching the practical fundamentals of protecting organizational and personal data."
+  },
+  "level": "beginner",
+  "durationHours": 10,
+  "category": "cybersecurity",
+  "status": "coming-soon",
+  "order": 2,
+  "syllabus": [
+    {
+      "slug": "module-1",
+      "title": {
+        "uz": "Kiberxavfsizlikka kirish",
+        "ru": "Введение в кибербезопасность",
+        "en": "Introduction to Cybersecurity"
+      },
+      "lessons": [
+        {
+          "slug": "lesson-1-1",
+          "title": {
+            "uz": "Asosiy tahdidlar va hujum turlari",
+            "ru": "Основные угрозы и типы атак",
+            "en": "Core threats and attack types"
+          },
+          "type": "video"
+        },
+        {
+          "slug": "lesson-1-2",
+          "title": {
+            "uz": "Parollar va autentifikatsiya",
+            "ru": "Пароли и аутентификация",
+            "en": "Passwords and authentication"
+          },
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "slug": "module-2",
+      "title": {
+        "uz": "ISO/IEC 27001 asoslari",
+        "ru": "Основы ISO/IEC 27001",
+        "en": "ISO/IEC 27001 Basics"
+      },
+      "lessons": [
+        {
+          "slug": "lesson-2-1",
+          "title": {
+            "uz": "Axborot xavfsizligi menejmenti tizimi",
+            "ru": "Система менеджмента информационной безопасности",
+            "en": "Information security management system"
+          },
+          "type": "video"
+        }
+      ]
+    }
+  ]
+}

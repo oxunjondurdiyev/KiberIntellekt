@@ -1,0 +1,17 @@
+{
+  "title": "Certificates & Acknowledgments",
+  "subtitle": "Documents received from various international and local organizations",
+  "filterLabel": "Filter by category",
+  "categories": {
+    "ai": "Artificial Intelligence",
+    "cybersecurity": "Cybersecurity",
+    "iso-standardization": "ISO / Standardization",
+    "teaching": "Teaching",
+    "other": "Other"
+  },
+  "issuedBy": "Issued by",
+  "issueDate": "Issue date",
+  "verifyLink": "Verify certificate",
+  "openLarge": "View full size",
+  "emptyState": "No certificates in this category yet"
+}

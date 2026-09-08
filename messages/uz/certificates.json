@@ -1,0 +1,17 @@
+{
+  "title": "Sertifikat va tashakkurnomalar",
+  "subtitle": "Turli xalqaro va mahalliy tashkilotlardan olingan hujjatlar",
+  "filterLabel": "Kategoriya bo'yicha filtrlash",
+  "categories": {
+    "ai": "Sun'iy intellekt",
+    "cybersecurity": "Kiberxavfsizlik",
+    "iso-standardization": "ISO / Standartlashtirish",
+    "teaching": "Ta'lim",
+    "other": "Boshqa"
+  },
+  "issuedBy": "Bergan tashkilot",
+  "issueDate": "Berilgan sana",
+  "verifyLink": "Sertifikatni tasdiqlash",
+  "openLarge": "Kattalashtirib ko'rish",
+  "emptyState": "Ushbu kategoriyada hozircha sertifikat yo'q"
+}

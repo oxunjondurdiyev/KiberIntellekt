@@ -1,0 +1,28 @@
+{
+  "slug": "iso-9001-ai-monitoring",
+  "title": {
+    "uz": "ISO 9001:2015 sifat ko'rsatkichlarini AI asosida monitoring qilish tizimi",
+    "ru": "Система мониторинга показателей качества по ISO 9001:2015 на основе ИИ",
+    "en": "AI-Based Monitoring System for ISO 9001:2015 Quality Indicators"
+  },
+  "shortDescription": {
+    "uz": "Tashkilot sifat ko'rsatkichlarini real vaqtda kuzatish va og'ishlarni avtomatik aniqlash uchun AI vositasi.",
+    "ru": "Инструмент на базе ИИ для мониторинга показателей качества организации в реальном времени и автоматического выявления отклонений.",
+    "en": "An AI tool for real-time monitoring of an organization's quality indicators and automatic deviation detection."
+  },
+  "detailedDescription": {
+    "uz": "Loyiha doirasida ISO 9001:2015 talablariga asoslangan sifat ko'rsatkichlarini yig'ish, tahlil qilish va og'ishlarni erta bosqichda aniqlash uchun mashinaviy o'qitish modeli ishlab chiqildi. Tizim jarayon ma'lumotlarini real vaqt rejimida qabul qiladi, tarixiy trendlar bilan solishtiradi va sifat menejeriga avtomatik bildirishnomalar yuboradi.",
+    "ru": "В рамках проекта была разработана модель машинного обучения для сбора и анализа показателей качества на основе требований ISO 9001:2015 и раннего выявления отклонений. Система принимает данные процессов в реальном времени, сравнивает их с историческими трендами и автоматически уведомляет менеджера по качеству.",
+    "en": "This project developed a machine learning model to collect and analyze quality indicators based on ISO 9001:2015 requirements and detect deviations at an early stage. The system ingests process data in real time, compares it against historical trends, and automatically notifies the quality manager."
+  },
+  "technologies": ["Python", "ISO 9001:2015", "Machine Learning", "Power BI"],
+  "category": "iso-quality-management",
+  "result": {
+    "uz": "Nomuvofiqliklarni aniqlash vaqti sezilarli darajada qisqardi va sifat hisobotlari avtomatlashtirildi.",
+    "ru": "Время выявления несоответствий значительно сократилось, а отчётность по качеству была автоматизирована.",
+    "en": "Nonconformity detection time was significantly reduced, and quality reporting was automated."
+  },
+  "featured": true,
+  "order": 1,
+  "publishedAt": "2024-03-01"
+}

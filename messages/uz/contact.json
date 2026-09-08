@@ -1,0 +1,22 @@
+{
+  "title": "Aloqa",
+  "subtitle": "Savol yoki taklifingiz bormi? Menga yozing.",
+  "formTitle": "Xabar yuborish",
+  "nameLabel": "Ismingiz",
+  "emailLabel": "Elektron pochta",
+  "subjectLabel": "Mavzu",
+  "messageLabel": "Xabar",
+  "sendButton": "Yuborish",
+  "sending": "Yuborilmoqda...",
+  "successMessage": "Xabaringiz muvaffaqiyatli yuborildi. Tez orada javob beraman!",
+  "errorMessage": "Xabarni yuborishda xatolik yuz berdi. Iltimos, birozdan so'ng qayta urinib ko'ring.",
+  "notConfiguredMessage": "Aloqa formasi hozircha sozlanmoqda. Iltimos, ijtimoiy tarmoqlar orqali bog'laning.",
+  "validation": {
+    "nameRequired": "Ismingizni kiriting",
+    "emailInvalid": "To'g'ri elektron pochta manzilini kiriting",
+    "messageRequired": "Xabar matnini kiriting",
+    "messageMin": "Xabar kamida 10 ta belgidan iborat bo'lishi kerak"
+  },
+  "socialTitle": "Ijtimoiy tarmoqlar",
+  "directEmailLabel": "Yoki to'g'ridan-to'g'ri yozing"
+}

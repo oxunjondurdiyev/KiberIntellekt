@@ -1,0 +1,28 @@
+{
+  "slug": "iso42001-compliance-tool",
+  "title": {
+    "uz": "Sun'iy intellekt tizimlari uchun ISO/IEC 42001:2023 muvofiqligini baholash vositasi",
+    "ru": "Инструмент оценки соответствия ISO/IEC 42001:2023 для систем искусственного интеллекта",
+    "en": "ISO/IEC 42001:2023 Compliance Assessment Tool for AI Systems"
+  },
+  "shortDescription": {
+    "uz": "Tashkilotlarga o'zlarining AI tizimlarini ISO/IEC 42001:2023 talablariga moslashtirishda yordam beruvchi baholash vositasi.",
+    "ru": "Инструмент оценки, помогающий организациям приводить свои системы ИИ в соответствие с требованиями ISO/IEC 42001:2023.",
+    "en": "An assessment tool that helps organizations align their AI systems with ISO/IEC 42001:2023 requirements."
+  },
+  "detailedDescription": {
+    "uz": "AI boshqaruv tizimlari standarti ISO/IEC 42001:2023 yangi bo'lib, ko'plab tashkilotlar uni amaliyotga tatbiq etishda qiynalmoqda. Ushbu loyiha standart talablarini bosqichma-bosqich anketaga aylantiradi va tashkilotning joriy holatini avtomatik ravishda baholab, muvofiqlik hisobotini shakllantiradi.",
+    "ru": "Стандарт систем менеджмента ИИ ISO/IEC 42001:2023 является новым, и многие организации испытывают трудности с его внедрением. Проект преобразует требования стандарта в пошаговую анкету и автоматически формирует отчёт о соответствии на основе текущего состояния организации.",
+    "en": "The ISO/IEC 42001:2023 AI management system standard is new, and many organizations struggle to implement it. This project turns the standard's requirements into a step-by-step questionnaire and automatically generates a compliance report based on the organization's current state."
+  },
+  "technologies": ["ISO/IEC 42001:2023", "AI Governance", "React", "Node.js"],
+  "category": "ai-ml",
+  "result": {
+    "uz": "Tashkilotlar o'z AI tizimlarining muvofiqlik darajasini tezda baholash imkoniyatiga ega bo'ldi.",
+    "ru": "Организации получили возможность быстро оценивать уровень соответствия своих систем ИИ.",
+    "en": "Organizations gained the ability to quickly assess the compliance level of their AI systems."
+  },
+  "featured": false,
+  "order": 3,
+  "publishedAt": "2025-01-20"
+}

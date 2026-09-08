@@ -1,0 +1,20 @@
+{
+  "title": "Мои проекты",
+  "subtitle": "Галерея реализованных исследовательских и практических проектов",
+  "filterLabel": "Фильтр по категории",
+  "categories": {
+    "ai-ml": "Искусственный интеллект",
+    "cybersecurity": "Кибербезопасность",
+    "iso-quality-management": "Менеджмент качества ISO",
+    "research": "Исследования",
+    "training": "Тренинги",
+    "other": "Другое"
+  },
+  "technologiesLabel": "Технологии / тема",
+  "resultLabel": "Результат",
+  "viewDetails": "Подробнее",
+  "visitProject": "Перейти к проекту",
+  "backToProjects": "Назад к проектам",
+  "emptyState": "В этой категории пока нет проектов",
+  "galleryLabel": "Галерея изображений"
+}

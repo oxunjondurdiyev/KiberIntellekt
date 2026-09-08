@@ -1,0 +1,21 @@
+{
+  "title": "Онлайн-курсы",
+  "subtitle": "Курсы по искусственному интеллекту, кибербезопасности и стандартам качества",
+  "levels": {
+    "beginner": "Начальный",
+    "intermediate": "Средний",
+    "advanced": "Продвинутый"
+  },
+  "statuses": {
+    "available": "Доступен",
+    "coming-soon": "Скоро"
+  },
+  "durationLabel": "Продолжительность",
+  "hoursSuffix": "ч.",
+  "syllabusTitle": "Программа курса",
+  "lessonsCount": "уроков",
+  "backToCourses": "Назад к курсам",
+  "lessonComingSoon": "Содержание этого урока будет добавлено позже",
+  "videoLesson": "Видеоурок",
+  "textLesson": "Текстовый урок"
+}

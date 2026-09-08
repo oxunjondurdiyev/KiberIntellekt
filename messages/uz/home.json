@@ -1,0 +1,45 @@
+{
+  "hero": {
+    "eyebrow": "PhD tadqiqotchi · SI o'qituvchisi · Kiberxavfsizlik mutaxassisi",
+    "title": "Sun'iy intellekt va xalqaro standartlar orqali sifatni boshqarish",
+    "subtitle": "Men — mahsulot va xizmat sifatini sun'iy intellekt hamda ISO 9001:2015, ISO/IEC 27001, ISO/IEC 42001:2023 xalqaro standartlari asosida boshqarish yo'nalishida tadqiqot olib boruvchi mutaxassisman. O'zbekiston Standartlar institutida o'qituvchi va kiberxavfsizlik bo'yicha amaliyotchiman.",
+    "ctaPrimary": "Loyihalarim bilan tanishish",
+    "ctaSecondary": "Men bilan bog'lanish"
+  },
+  "focusAreas": {
+    "title": "Asosiy yo'nalishlar",
+    "subtitle": "Tadqiqot va amaliy faoliyatim quyidagi sohalarni qamrab oladi",
+    "items": [
+      {
+        "title": "Sun'iy intellekt",
+        "description": "AI asosida qaror qabul qilish va jarayonlarni avtomatlashtirish tizimlari"
+      },
+      {
+        "title": "Kiberxavfsizlik",
+        "description": "Axborot xavfsizligini ta'minlash va ISO/IEC 27001 asosida risklarni boshqarish"
+      },
+      {
+        "title": "Sifat menejmenti (ISO)",
+        "description": "ISO 9001:2015 va ISO/IEC 42001:2023 asosida sifat boshqaruv tizimlari"
+      },
+      {
+        "title": "Ta'lim va trening",
+        "description": "Standartlashtirish va kiberxavfsizlik bo'yicha o'qitish dasturlari"
+      }
+    ]
+  },
+  "projectsTeaser": {
+    "title": "Tanlangan loyihalar",
+    "subtitle": "Amalga oshirilgan ishlardan namunalar",
+    "cta": "Barcha loyihalarni ko'rish"
+  },
+  "coursesTeaser": {
+    "title": "Onlayn kurslar",
+    "subtitle": "Bilim va ko'nikmalaringizni rivojlantiring",
+    "cta": "Barcha kurslarni ko'rish"
+  },
+  "social": {
+    "title": "Ijtimoiy tarmoqlarda kuzatib boring",
+    "subtitle": "KiberIntellekt kanallarida sun'iy intellekt va kiberxavfsizlik bo'yicha yangi mazmunlar"
+  }
+}
